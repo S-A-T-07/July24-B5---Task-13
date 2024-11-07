@@ -1,0 +1,104 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 50px 30px 50px;
+    
+   
+
+    
+}
+
+#root{
+    background-image: url("./Bg.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.mainBox{
+    width: 900px;
+    height: auto;
+    padding:60px 40px 60px 40px ;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+
+.form-field-container
+{
+    width: 360px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.addressfield{
+    height: 75px;
+}
+
+.txtfield{
+    background-color: #FFFFFF;
+}
+
+.Details{
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+  }
+  
+  table{
+    margin-left: 10px;
+  }
+
+  th{
+    padding: 0 5px 5px 5px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  td{
+    padding: 0 10px 0 10px;
+    font-size: 16px;
+  }
+
+
+/* media screen */
+@media (max-width:1050px) {
+    .mainBox{
+        width: 650px;
+    }  
+
+} 
+
+@media (max-width:750px) {
+    .mainBox{
+        width: 550px;
+    }  
+
+    
+} 
+
+@media (max-width:630px) {
+    .mainBox{
+        width: 450px;
+    }     
+} 
+    
+
+   
+
+   
+    
